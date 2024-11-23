@@ -1,7 +1,8 @@
 void main() {
   print("Hello World!");
 
-  String name = "Marcus";
+  late String name;
+  name = "Marcus";
   int age = 22;
 
   print("I am $name and I am $age years old.");
